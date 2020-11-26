@@ -15,6 +15,7 @@
       var userEmail = 'joe@fourfoxcreative.com';
 	  function sendBackMessage(){
 		unityInstance.SendMessage("Bridge", "SendToUnity", userEmail);
+		  console.log("Sending message to Unity " + userEmail);
 	  }
     </script>
   </head>
